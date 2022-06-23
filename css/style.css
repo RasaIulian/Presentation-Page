@@ -1,0 +1,380 @@
+/* Start reset */
+html {
+  font-size: 10px; /*stabilim dim de 1 rem*/
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+input:focus,
+textarea,
+textarea:focus {
+  border: unset;
+  outline: unset;
+  box-shadow: unset;
+}
+
+/* end reset */
+
+.nav-item i {
+  color: red;
+}
+
+.navbar img {
+  max-height: 60px;
+}
+
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  min-height: 6.5rem;
+  width: 100%;
+  margin-bottom: 2rem;
+  background-color: rgb(24, 31, 76);
+  transition: color 0.3s;
+}
+
+.navbar .container-fluid {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.navbar * {
+  border: none;
+  background-color: rgb(24, 31, 76);
+  color: #eaeaea;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.navbar-toggler {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 9px 10px;
+}
+
+.navbar a:hover {
+  color: #f8b357;
+  background-color: rgb(24, 31, 76);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+#carouselExampleDark .carousel-control {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+}
+
+#carouselExampleDark .carousel-control.active {
+  background-color: #2bb686;
+}
+
+.carousel-indicators {
+  bottom: -5rem;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #101d42;
+  opacity: 1;
+}
+
+.container {
+  padding: 10rem 1rem;
+}
+
+.calendar-card-p {
+  position: relative;
+}
+
+.calendar-card {
+  border: 1px solid #ddd;
+  padding: 2rem 1rem 3px;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+
+.calendar-card ul {
+  padding-left: 0;
+  margin-top: 2rem;
+}
+
+.calendar-card li {
+  font-size: 1.12rem;
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+.calendar-card .line {
+  margin: 2rem -7px 0;
+  height: 5px;
+  border-radius: 5px;
+  background-color: green;
+}
+
+.calendar-card .line.red {
+  background-color: #ee5c3b;
+}
+.calendar-card .line.blue {
+  background-color: #4599d1;
+}
+.calendar-card .line.yellow {
+  background-color: #f8b357;
+}
+.calendar-card .line.green {
+  background-color: #38b99a;
+}
+
+.video-text {
+  position: absolute;
+  z-index: 3;
+  padding-left: 0;
+}
+
+.video-text * {
+  color: #ffffff;
+}
+
+.video-text p {
+  padding: 1rem 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+}
+
+h1 {
+  font-size: 5.6rem;
+  font-weight: 700;
+  font-family: "Work-Sans", sans-serif;
+}
+
+h2 {
+  color: #101d42;
+  font-size: 2.8rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 3.4rem;
+}
+
+h3 {
+  color: #101d42;
+  font-size: 2.4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+h4 {
+  color: #2b2922;
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 1rem 0 3.4rem;
+}
+
+p {
+  font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
+  color: #2b2922;
+}
+
+.ainevoie p {
+  width: 100%;
+  max-width: 80rem;
+  margin: 3rem auto;
+}
+
+.prog-preg p {
+  margin-bottom: 5.1rem;
+}
+
+.footer a,
+p {
+  font-size: 1.53rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
+}
+
+.social {
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px dotted #4d4d4d;
+}
+
+.social li {
+  display: inline-block;
+}
+
+.social a,
+i {
+  margin: 0 0.5rem;
+}
+
+.copyright p {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #b0b0b0;
+  margin-top: 4rem;
+}
+
+.rezultate span {
+  font-size: 4.08rem;
+  font-family: "Poppins", sans-serif;
+  color: #101d42;
+}
+
+.video-text img {
+  max-height: 30px;
+  margin: 0px 7px;
+}
+
+.video-section {
+  position: relative;
+  top: 7.5rem;
+  padding: 0;
+  margin-bottom: 5rem;
+  min-height: 99vh;
+  background-color: #101d42;
+}
+
+video {
+  width: 100%;
+  max-height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+#overlay {
+  background-color: rgba(24, 31, 76, 0.6);
+  z-index: 2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+.btn {
+  font-size: 1.5rem;
+  font-weight: 400;
+  min-width: 26rem;
+  padding: 1rem 0;
+  background-color: #2bb686;
+  border: 2px solid #2bb686;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #2bb686;
+  border: 2px solid #2bb686;
+}
+
+.footer {
+  background-color: #101d42;
+}
+
+.footer .container {
+  padding-bottom: 2rem;
+}
+
+.classroom img {
+  border: solid #dfedf5 10px;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+.parteneri img {
+  max-height: 8.5rem;
+  filter: grayscale(100%);
+  opacity: 100%;
+  border-radius: 5px;
+  transition: filter 0.3s;
+  margin-bottom: 4rem;
+}
+
+.parteneri .row.image {
+  align-items: center;
+}
+
+.prog-preg img {
+  max-height: 6rem;
+  filter: grayscale(100%);
+  opacity: 100%;
+  border-radius: 5px;
+  margin-bottom: 9rem;
+  transition: filter 0.3s;
+  margin-right: 1rem;
+}
+
+.parteneri img:hover,
+.prog-preg img:hover {
+  filter: grayscale(0%);
+}
+
+.certificari img {
+  max-height: 7rem;
+  align-items: center;
+  display: block;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: solid 1px #101d42;
+}
+
+.certificari p {
+  padding-top: 1rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
+}
+
+.col-certificari img {
+  max-height: 2.5rem;
+  display: block;
+  margin: 1.5rem 0;
+}
+
+.border-left-white {
+  border-left: solid 1px #b0b0b0;
+}
+
+@media (max-width: 1024px) {
+  video {
+    display: none;
+  }
+  #overlay {
+    background-color: rgba(24, 31, 76, 1);
+  }
+}
+
+@media (max-width: 768px) {
+  .calendar-card h3 {
+    min-height: 5.8rem;
+  }
+}
